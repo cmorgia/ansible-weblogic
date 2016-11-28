@@ -20,10 +20,10 @@
 #
 # Middleware validation
 #
-
 - name: Check if oracle weblogic is already installed
   stat:
     path: "{{ oracle.middleware_dir }}"
+  become: yes
   register: oracle_home
 
 - debug:
@@ -46,6 +46,7 @@
 - name: Check if weblogic domain home is already created
   stat:
     path: "{{ weblogic_domain_home }}"
+  become: yes  
   register: domain_home
 
 - set_fact:
@@ -63,6 +64,7 @@
 - name: Check if weblogic managed server is already created
   stat:
       path: "{{ weblogic_managed_server_home }}"
+  become: yes
   register: managed_server_home
 
 - set_fact:
