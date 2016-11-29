@@ -17,7 +17,7 @@ weblogic:
   logs_dir: "{{ oracle.home_dir }}/logs"
   install_response_file: "/tmp/wls.rsp"
   nodemanager_listen_port: 5556
-  nodemanager_listen_address: '127.0.0.1'
+  nodemanager_listen_address: '192.168.33.101'
   adminserver_listen_port: 7001
   managed_server_name: "ManagedServer1"
   managed_server_listen_port: 7003

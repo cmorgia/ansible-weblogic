@@ -45,5 +45,5 @@
   wait_for:
     port: "{{ weblogic.managed_server_listen_port }}"
     delay: 4
-    timeout: 30
+    timeout: 90
   ignore_errors: yes
