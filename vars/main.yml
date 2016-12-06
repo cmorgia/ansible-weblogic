@@ -43,6 +43,9 @@ rh:
     - 'ksh'
     - 'make'
     - 'sysstat'
+    - 'rng-tools'
+    - 'lsof'
+    - 'vim'
 
 kernel_params:
   kernel.shmmax: 2147483648
