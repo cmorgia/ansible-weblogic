@@ -46,6 +46,7 @@ rh:
     - 'rng-tools'
     - 'lsof'
     - 'vim'
+    - 'dejavu-sans-fonts'
 
 kernel_params:
   kernel.shmmax: 2147483648
