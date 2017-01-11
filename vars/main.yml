@@ -47,6 +47,7 @@ rh:
     - 'lsof'
     - 'vim'
     - 'dejavu-sans-fonts'
+    - 'dos2unix'
 
 kernel_params:
   kernel.shmmax: 2147483648
